@@ -10,7 +10,7 @@ This program is command line shell-like program.
 
 # 1. How to install
     Copy the "cmd.py" file into microPython storage area using Thonny.
-   Also refer the following section; "Flle/Directory structure on micro-controller "
+    Also refer the following section; "Flle/Directory structure on micro-controller "
 
 # 2. How to start
     From REPL prompt ">>>", execute
@@ -52,48 +52,48 @@ This program is command line shell-like program.
 
     directory example:
 
-  /
-  +------------- lib <dir> 
-  |                  |
-  +- cmd.py          +- common <dir>
-  +- autoexec.bat           |  
-  |                         +- config <dir> 
-  +- ed.py                  |    +- __init__.py
-  |                         |    +- pico.py
-  +- boot.py                |    +- picow.py
-                            |    +- esp32.py
-                            |
-                            +- device <dir>
-                                 +- __init__.py
-                                 +- hcsr04.py
-                                 +- pcf8563.py
-                                 +- sdcard.py
-                                 +- sht31.py
-                                 +- ssd1306.py
-                                 +- ssd1331.py
-                                 +- ws2812.py
+      /
+      +------------- lib <dir> 
+      |                  |
+      +- cmd.py          +- common <dir>
+      +- autoexec.bat           |  
+      |                         +- config <dir> 
+      +- ed.py                  |    +- __init__.py
+      |                         |    +- pico.py
+      +- boot.py                |    +- picow.py
+                                |    +- esp32.py
+                                |
+                                +- device <dir>
+                                    +- __init__.py
+                                    +- hcsr04.py
+                                    +- pcf8563.py
+                                    +- sdcard.py
+                                    +- sht31.py
+                                    +- ssd1306.py
+                                    +- ssd1331.py
+                                    +- ws2812.py
 
-   boot.py set the global variable as follows:
-      MYBOARD = "pico"
+         boot.py set the global variable as follows:
+            MYBOARD = "pico"
 
-   (cf. Interface magazine (CQ publish), Mar-2023 p42)
+         (cf. Interface magazine (CQ publish), Mar-2023 p42)
 
 
 # 6. URL for download modules of each device
   
-  https://wiki.seeedstudio.com/XIAO-RP2040-with-MicroPython
-    Download a file: XIAO-RP2040-MicroPython-Grove.zip and copy modules as follows
-    into /lib/common/device directory.
-       ws2812.py
-       ssd1306.py
+      https://wiki.seeedstudio.com/XIAO-RP2040-with-MicroPython
+          Download a file: XIAO-RP2040-MicroPython-Grove.zip and copy modules as follows
+          into /lib/common/device directory.
+             ws2812.py  
+             ssd1306.py
 
-  https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/storage/sdcard
-       sdcard.py 
+      https://github.com/micropython/micropython-lib/tree/master/micropython/drivers/storage/sdcard
+             sdcard.py 
 
 
 # 7. Batch file
-    Filename *.bat can be used as batch file.
-   The file "autoexec.bat" is executed automatically when start the cmd.py program.
+       Filename *.bat can be used as batch file.
+      The file "autoexec.bat" is executed automatically when start the cmd.py program.
 
 
 # 8. Command line parameter
