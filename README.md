@@ -15,10 +15,11 @@ Also refer the following section; "Flle/Directory structure on micro-controller 
 # 2. How to start
 From REPL prompt ">>>", execute
 
-        import cmd
+    import cmd
 
 or,
-        with open("cmd.py") as f: exec(f.read())
+
+    with open("cmd.py") as f: exec(f.read())
 
 (after input above, hit <enter> 2 times) 
 If the "import cmd"  dosen't work properly, try the second code in above. (Tring: sys.modules.pop('cmd.py') and import again may works, if lucky..)
