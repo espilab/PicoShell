@@ -26,8 +26,8 @@ If the "import cmd"  dosen't work properly, try the second code in above. (Tring
     
 
 # 3. How to invoke a python program
-      From the prompt '>',  type the <filename.py>  and enter to execute, or <filename> only.
-    ".py" can be omit.
+From the prompt '>',  type the <filename.py>  and enter to execute, or <filename> only.
+".py" can be omit.
 
 
 # 4. Available commands
