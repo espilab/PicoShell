@@ -5,8 +5,8 @@ This program is command line shell-like program.
 
 
 # 0. NOTICE
-      This program is no warranty. There is some risk of lost any file, break the file system, etc.
-     USE AT YOUR OWN RISK.
+This program is no warranty. There is some risk of lost any file, break the file system, etc.
+USE AT YOUR OWN RISK.
 
 # 1. How to install
     Copy the "cmd.py" file into microPython storage area using Thonny.
